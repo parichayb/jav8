@@ -8,6 +8,8 @@ import java.util.function.Consumer;
  * 
  * How default interface methods helps java backward compatibility
  * 
+ * 123
+ * 
  */
 public class TestMe {
 
