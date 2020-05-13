@@ -35,4 +35,8 @@ public class TestMe {
 		
 		lst.forEach(t -> System.out.println(t + "  " + Thread.currentThread().getName()));
 	}
+	
+	private void foo() {
+		
+	}
 }
