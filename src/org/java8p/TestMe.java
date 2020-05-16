@@ -10,6 +10,8 @@ import java.util.function.Consumer;
  * 
  * 123
  * 
+ * more comments added here 
+ * 
  */
 public class TestMe {
 
@@ -31,10 +33,10 @@ public class TestMe {
 		
 		
 		
-		//lst.forEach(action);
+		lst.forEach(action);
 	
-		//lst.forEach(System.out::println);
+		lst.forEach(System.out::println);
 		
-		lst.forEach(t -> System.out.println(t + "  " + Thread.currentThread().getName()));
+		lst.forEach(t -> System.out.println(t));
 	}
 }
